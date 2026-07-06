@@ -1,0 +1,47 @@
+name: tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install package and development dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e ".[dev]"
+
+      - name: Rebuild material database
+        run: python scripts/import_excel_database.py
+
+      - name: Validate material database
+        run: python scripts/validate_database.py
+
+      - name: Compile source, app, and scripts
+        run: python -m compileall -q src app.py scripts
+
+      - name: Run test suite
+        run: pytest -q
+
+      - name: CLI smoke tests
+        run: |
+          python -m nanoform.cli --help
+          python -m nanoform.cli search --query "Span 60"
+          python -m nanoform.cli recommend-solvent --drug Curcumin --route oral --blends
+          python -m nanoform.cli recommend-carrier --route pulmonary --family dry_powder_carrier
