@@ -6,7 +6,7 @@ of database-backed terms; it is a rational-screening heuristic, not a validated
 solubility predictor.
 
 Score drivers:
-    * affinity      : 1 - RED(drug, solvent)   (Hansen; closer = better)
+    * affinity      : bounded RED-to-affinity mapping (Hansen; closer = better)
     * process_fit   : volatility for evaporation methods, safety for injection
     * safety        : ICH class penalty + explicit toxicity penalty
     * route_fit     : pulmonary/parenteral acceptability
@@ -20,6 +20,22 @@ from . import equations as eq
 from .database import Database, MaterialCard, get_database
 
 ICH_PENALTY = {"none": 0.0, "3": 0.1, "2": 0.45, "1": 0.9, "": 0.15}
+
+
+def _miscibility_score(value) -> float:
+    """Return approximate aqueous miscibility score from numeric or curated text."""
+    if isinstance(value, (int, float)):
+        return eq.clamp(float(value))
+    txt = str(value or "").strip().lower()
+    if txt in {"miscible", "fully miscible", "yes"}:
+        return 1.0
+    if "slightly" in txt:
+        return 0.2
+    if "partial" in txt or "moderate" in txt:
+        return 0.5
+    if txt in {"immiscible", "no", "0"}:
+        return 0.0
+    return 0.5
 
 
 def _red(drug: MaterialCard, dD, dP, dH) -> Optional[float]:
@@ -38,7 +54,9 @@ def _safety_penalty(card: MaterialCard) -> float:
     pen = ICH_PENALTY.get(ich, 0.15)
     tox = card.get("toxicity_penalty")
     if isinstance(tox, (int, float)):
-        pen += tox
+        # Curated toxicity_penalty is an ordinal hazard flag, not an absolute
+        # 0-1 probability. Convert 0-5-ish values to a bounded additive penalty.
+        pen += min(max(float(tox), 0.0), 5.0) / 10.0
     return eq.clamp(pen, 0, 1)
 
 
@@ -46,14 +64,13 @@ def _process_fit(card: MaterialCard, process: str) -> float:
     bp = card.get("boiling_point_C")
     process = (process or "").lower()
     if any(k in process for k in ("nanoprecip", "evapor", "emulsion", "spray", "film")):
-        # volatile solvents favored for removal
+        # Volatile solvents are easier to remove during process development.
         if isinstance(bp, (int, float)):
             return eq.clamp(1.0 - eq.normalize_score(bp, 40, 200))
         return 0.5
     if "inject" in process or "parenteral" in process:
-        # non-volatile, water-miscible, GRAS favored
-        misc = card.get("water_miscibility")
-        m = misc if isinstance(misc, (int, float)) else 0.5
+        # Non-volatile, water-miscible, GRAS-like solvents are preferred.
+        m = _miscibility_score(card.get("water_miscibility"))
         return eq.clamp(0.3 + 0.7 * m)
     return 0.5
 
@@ -68,17 +85,30 @@ def _route_fit(card: MaterialCard, route: str) -> float:
         if ich in ("1", "2"):
             return 0.2
         return 0.9
+    if route in ("oral", "topical", "transdermal", "nasal"):
+        if ich == "1":
+            return 0.2
+        if ich == "2":
+            return 0.45
+        if ich == "3":
+            return 0.75
+        return 0.85
     return 0.7
 
 
 def _route_safety_gate(ich: str, route: str) -> float:
-    """Hard multiplicative gate: class-1/2 solvents are strongly disfavored for
-    routes where residual solvent cannot be tolerated (inhaled/injected/ocular)."""
-    if (route or "").lower() in RESTRICTIVE_ROUTES:
+    """Multiplicative route gate for residual-solvent risk."""
+    route = (route or "").lower()
+    if route in RESTRICTIVE_ROUTES:
         if ich == "1":
             return 0.25
         if ich == "2":
             return 0.5
+    if route in ("oral", "topical", "transdermal", "nasal"):
+        if ich == "1":
+            return 0.4
+        if ich == "2":
+            return 0.65
     return 1.0
 
 
@@ -106,7 +136,7 @@ def recommend_solvents(
     results = []
     for card in solvents:
         red = _red(drug, card.get("delta_D"), card.get("delta_P"), card.get("delta_H"))
-        affinity = eq.clamp(1.0 - red) if red is not None else 0.4
+        affinity = eq.red_affinity_score(red)
         safety = 1.0 - _safety_penalty(card)
         pfit = _process_fit(card, process)
         rfit = _route_fit(card, route)
@@ -154,7 +184,7 @@ def _blend_candidates(drug, solvents, route, process, max_pairs=40):
         if best is None:
             continue
         red, f = best
-        affinity = eq.clamp(1.0 - red)
+        affinity = eq.red_affinity_score(red)
         safety = 1.0 - max(_safety_penalty(a), _safety_penalty(b))
         pfit = 0.5 * (_process_fit(a, process) + _process_fit(b, process))
         rfit = min(_route_fit(a, route), _route_fit(b, route))
