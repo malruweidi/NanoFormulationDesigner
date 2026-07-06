@@ -36,8 +36,11 @@ jobs:
       - name: Compile source, app, and scripts
         run: python -m compileall -q src app.py scripts
 
-      - name: Run test suite
-        run: pytest -q
+      - name: Run backend and scientific regression tests
+        run: pytest -q tests --ignore=tests/test_app_entrypoint.py
+
+      - name: Run app entrypoint smoke test
+        run: pytest -q tests/test_app_entrypoint.py
 
       - name: CLI smoke tests
         run: |
