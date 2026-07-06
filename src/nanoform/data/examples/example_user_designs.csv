@@ -1,0 +1,4 @@
+design_id,family,route,drug,drug_mol_percent,solvent,carrier,components,design_goal,total_membrane_umol,pH,temperature_C
+niosome_dex_topical,niosome,topical,Dexamethasone,5,Ethanol,,Span 60:47.5|Cholesterol:42.5|Dicetyl phosphate:5,stability,200,7.4,60
+sln_curcumin_oral,solid_lipid_nanoparticle,oral,Curcumin,8,Ethanol,Trehalose,Glyceryl behenate:80|Tween 80:20,high_EE,300,6.8,75
+liposome_dox_iv,liposome,parenteral,Doxorubicin,5,Ethanol,Sucrose,HSPC:56|Cholesterol:39|DSPE-PEG2000:5,parenteral_cautious,200,6.5,60

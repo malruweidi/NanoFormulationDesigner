@@ -1,0 +1,314 @@
+material_name,material_type,missing_property,importance,suggested_source,whether_estimation_is_allowed,priority
+Dexamethasone,api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+Budesonide,api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+Fluticasone propionate,api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+Beclomethasone dipropionate,api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+Prednisolone,api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+Hydrocortisone,api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+Paclitaxel,api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+Docetaxel,api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+Cisplatin,api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+Cyclosporine A,api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+Tacrolimus,api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+Sirolimus,api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+Nifedipine,api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+Felodipine,api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+Simvastatin,api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+Fenofibrate,api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+siRNA duplex placeholder,api,MW,high,PubChem / supplier / primary literature,no,high
+siRNA duplex placeholder,api,logP,medium,PubChem / experimental logP,yes (flag as estimated),medium
+siRNA duplex placeholder,api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+siRNA duplex placeholder,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+siRNA duplex placeholder,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+siRNA duplex placeholder,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+siRNA duplex placeholder,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+mRNA payload placeholder,api,MW,high,PubChem / supplier / primary literature,no,high
+mRNA payload placeholder,api,logP,medium,PubChem / experimental logP,yes (flag as estimated),medium
+mRNA payload placeholder,api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+mRNA payload placeholder,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+mRNA payload placeholder,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+mRNA payload placeholder,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+mRNA payload placeholder,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Peptide payload placeholder,api,MW,high,PubChem / supplier / primary literature,no,high
+Peptide payload placeholder,api,logP,medium,PubChem / experimental logP,yes (flag as estimated),medium
+Peptide payload placeholder,api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+Peptide payload placeholder,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Peptide payload placeholder,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Peptide payload placeholder,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Peptide payload placeholder,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Span 20,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Span 40,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Span 60,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Span 65,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Span 80,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Span 85,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Tween 21,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Tween 61,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Tween 65,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Tween 81,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Brij 30,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Brij 52,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Brij 56,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Brij 72,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Brij 76,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Brij 78,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Brij 92,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Brij 96,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Myrj 45,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Myrj 49,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Myrj 52,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Myrj 53,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Myrj 59,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Poloxamer 124,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Poloxamer 237,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Poloxamer 338,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Poloxamer P85,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Poloxamer L64,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Kolliphor P188,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Kolliphor P407,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Kolliphor HS15 / Solutol HS15,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Kolliphor EL / Cremophor EL,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Kolliphor RH40 / Cremophor RH40,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Labrasol,nonionic_surfactant,MW,high,PubChem / supplier / primary literature,no,high
+Labrasol,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Transcutol P,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Sucrose monolaurate,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Sucrose monopalmitate,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Sucrose monostearate,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Sucrose monooleate,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Lecithin,phospholipid,Tm_C,medium,Avanti / DSC literature,yes (flag as estimated),medium
+DSPE-PEG2000,phospholipid,Tm_C,medium,Avanti / DSC literature,yes (flag as estimated),medium
+DSPE-PEG5000,phospholipid,Tm_C,medium,Avanti / DSC literature,yes (flag as estimated),medium
+DMG-PEG2000,phospholipid,Tm_C,medium,Avanti / DSC literature,yes (flag as estimated),medium
+PEG-DMG,phospholipid,Tm_C,medium,Avanti / DSC literature,yes (flag as estimated),medium
+PEG-DSG,phospholipid,Tm_C,medium,Avanti / DSC literature,yes (flag as estimated),medium
+PEG-DPPE,phospholipid,Tm_C,medium,Avanti / DSC literature,yes (flag as estimated),medium
+DOTAP,phospholipid,Tm_C,medium,Avanti / DSC literature,yes (flag as estimated),medium
+DOTMA,phospholipid,Tm_C,medium,Avanti / DSC literature,yes (flag as estimated),medium
+DDAB,phospholipid,Tm_C,medium,Avanti / DSC literature,yes (flag as estimated),medium
+DC-Chol,phospholipid,Tm_C,medium,Avanti / DSC literature,yes (flag as estimated),medium
+DODAP,phospholipid,Tm_C,medium,Avanti / DSC literature,yes (flag as estimated),medium
+DLin-MC3-DMA,phospholipid,Tm_C,medium,Avanti / DSC literature,yes (flag as estimated),medium
+SM-102,phospholipid,Tm_C,medium,Avanti / DSC literature,yes (flag as estimated),medium
+ALC-0315,phospholipid,Tm_C,medium,Avanti / DSC literature,yes (flag as estimated),medium
+Dlin-KC2-DMA,phospholipid,Tm_C,medium,Avanti / DSC literature,yes (flag as estimated),medium
+DODMA,phospholipid,Tm_C,medium,Avanti / DSC literature,yes (flag as estimated),medium
+SAINT lipid placeholder,phospholipid,MW,high,PubChem / supplier / primary literature,no,high
+SAINT lipid placeholder,phospholipid,Tm_C,medium,Avanti / DSC literature,yes (flag as estimated),medium
+Sodium cholate,bile_salt,HLB,medium,PubChem / supplier / primary literature,yes (flag as estimated),medium
+Sodium deoxycholate,bile_salt,HLB,medium,PubChem / supplier / primary literature,yes (flag as estimated),medium
+Sodium taurocholate,bile_salt,HLB,medium,PubChem / supplier / primary literature,yes (flag as estimated),medium
+Sodium glycocholate,bile_salt,HLB,medium,PubChem / supplier / primary literature,yes (flag as estimated),medium
+Sodium taurodeoxycholate,bile_salt,HLB,medium,PubChem / supplier / primary literature,yes (flag as estimated),medium
+Sodium glycodeoxycholate,bile_salt,HLB,medium,PubChem / supplier / primary literature,yes (flag as estimated),medium
+Sodium taurochenodeoxycholate,bile_salt,HLB,medium,PubChem / supplier / primary literature,yes (flag as estimated),medium
+Sodium chenodeoxycholate,bile_salt,HLB,medium,PubChem / supplier / primary literature,yes (flag as estimated),medium
+Glyceryl behenate / Compritol 888 ATO,solid_lipid,MW,high,PubChem / supplier / primary literature,no,high
+Glyceryl palmitostearate / Precirol ATO 5,solid_lipid,MW,high,PubChem / supplier / primary literature,no,high
+Witepsol H15,solid_lipid,MW,high,PubChem / supplier / primary literature,no,high
+Witepsol W35,solid_lipid,MW,high,PubChem / supplier / primary literature,no,high
+Gelucire 44/14,solid_lipid,MW,high,PubChem / supplier / primary literature,no,high
+Gelucire 50/13,solid_lipid,MW,high,PubChem / supplier / primary literature,no,high
+Gelucire 43/01,solid_lipid,MW,high,PubChem / supplier / primary literature,no,high
+Medium-chain triglycerides,liquid_lipid,MW,high,PubChem / supplier / primary literature,no,high
+Miglyol 812,liquid_lipid,MW,high,PubChem / supplier / primary literature,no,high
+Miglyol 840,liquid_lipid,MW,high,PubChem / supplier / primary literature,no,high
+Labrafac PG,liquid_lipid,MW,high,PubChem / supplier / primary literature,no,high
+Capryol 90,liquid_lipid,MW,high,PubChem / supplier / primary literature,no,high
+Maisine CC,liquid_lipid,MW,high,PubChem / supplier / primary literature,no,high
+Peceol,liquid_lipid,MW,high,PubChem / supplier / primary literature,no,high
+Labrafil M1944CS,liquid_lipid,MW,high,PubChem / supplier / primary literature,no,high
+Labrafil M2125CS,liquid_lipid,MW,high,PubChem / supplier / primary literature,no,high
+Castor oil,liquid_lipid,MW,high,PubChem / supplier / primary literature,no,high
+Soybean oil,liquid_lipid,MW,high,PubChem / supplier / primary literature,no,high
+Sesame oil,liquid_lipid,MW,high,PubChem / supplier / primary literature,no,high
+Corn oil,liquid_lipid,MW,high,PubChem / supplier / primary literature,no,high
+Olive oil,liquid_lipid,MW,high,PubChem / supplier / primary literature,no,high
+Mannitol,carrier,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Lactose,carrier,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Glucose,carrier,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Sorbitol,carrier,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Xylitol,carrier,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Cyclodextrin,carrier,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Beta-cyclodextrin,carrier,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Hydroxypropyl-beta-cyclodextrin,carrier,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Sulfobutylether-beta-cyclodextrin,carrier,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Microcrystalline cellulose,carrier,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Aerosil / colloidal silicon dioxide,carrier,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Calcium carbonate,carrier,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Pregelatinized starch,carrier,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+L-leucine,carrier,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Leucine for inhalation powders,carrier,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Glycine,carrier,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Dicetyl phosphate,ionic_surfactant,HLB,medium,PubChem / supplier / primary literature,yes (flag as estimated),medium
+Stearylamine,ionic_surfactant,HLB,medium,PubChem / supplier / primary literature,yes (flag as estimated),medium
+Sodium stearate,ionic_surfactant,HLB,medium,PubChem / supplier / primary literature,yes (flag as estimated),medium
+Sodium oleate,ionic_surfactant,HLB,medium,PubChem / supplier / primary literature,yes (flag as estimated),medium
+CMC,polymer,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+CMC,polymer,formal_charge,high,PubChem / supplier / primary literature,no,medium
+Sodium CMC,polymer,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Sodium CMC,polymer,formal_charge,high,PubChem / supplier / primary literature,no,medium
+Chitosan low MW,polymer,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Chitosan medium MW,polymer,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Chitosan high MW,polymer,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Trimethyl chitosan,polymer,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+PEI low MW,polymer,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+PEI high MW,polymer,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Hyaluronic acid,polymer,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Hyaluronic acid,polymer,formal_charge,high,PubChem / supplier / primary literature,no,medium
+Sodium alginate,polymer,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Sodium alginate,polymer,formal_charge,high,PubChem / supplier / primary literature,no,medium
+Dextran,polymer,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Dextran,polymer,formal_charge,high,PubChem / supplier / primary literature,no,medium
+Heparin,polymer,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Heparin,polymer,formal_charge,high,PubChem / supplier / primary literature,no,medium
+Pectin,polymer,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Pectin,polymer,formal_charge,high,PubChem / supplier / primary literature,no,medium
+Gelatin,polymer,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Gelatin,polymer,formal_charge,high,PubChem / supplier / primary literature,no,medium
+Albumin polymer grade,polymer,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Albumin polymer grade,polymer,formal_charge,high,PubChem / supplier / primary literature,no,medium
+Casein,polymer,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Casein,polymer,formal_charge,high,PubChem / supplier / primary literature,no,medium
+Zein,polymer,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Zein,polymer,formal_charge,high,PubChem / supplier / primary literature,no,medium
+Triamcinolone acetonide,api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+Insulin (placeholder),api,logP,medium,PubChem / experimental logP,yes (flag as estimated),medium
+Insulin (placeholder),api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+Insulin (placeholder),api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Brij 93,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Soluplus,nonionic_surfactant,CMC_mM,medium,Supplier datasheet / primary literature,yes (flag as estimated),medium
+Lactose monohydrate,carrier,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Pullulan,carrier,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Polyethylenimine (branched),polymer,Tg_C,medium,Supplier datasheet / DSC,yes (flag as estimated),medium
+Methotrexate,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Methotrexate,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Methotrexate,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Methotrexate,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Gemcitabine,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Gemcitabine,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Gemcitabine,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Gemcitabine,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Tamoxifen,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Tamoxifen,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Tamoxifen,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Tamoxifen,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Imatinib,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Imatinib,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Imatinib,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Imatinib,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Azithromycin,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Azithromycin,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Azithromycin,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Azithromycin,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Efavirenz,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Efavirenz,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Efavirenz,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Efavirenz,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Ketoconazole,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Ketoconazole,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Ketoconazole,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Ketoconazole,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Carbamazepine,api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+Carbamazepine,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Carbamazepine,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Carbamazepine,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Carbamazepine,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Metformin,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Metformin,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Metformin,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Metformin,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Fluorouracil,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Fluorouracil,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Fluorouracil,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Fluorouracil,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Cytarabine,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Cytarabine,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Cytarabine,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Cytarabine,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Etoposide,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Etoposide,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Etoposide,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Etoposide,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Sorafenib,api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+Sorafenib,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Sorafenib,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Sorafenib,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Sorafenib,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Erlotinib,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Erlotinib,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Erlotinib,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Erlotinib,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Temozolomide,api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+Temozolomide,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Temozolomide,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Temozolomide,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Temozolomide,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Miconazole,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Miconazole,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Miconazole,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Miconazole,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Terbinafine,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Terbinafine,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Terbinafine,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Terbinafine,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Griseofulvin,api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+Griseofulvin,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Griseofulvin,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Griseofulvin,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Griseofulvin,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Levofloxacin,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Levofloxacin,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Levofloxacin,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Levofloxacin,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Linezolid,api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+Linezolid,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Linezolid,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Linezolid,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Linezolid,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Clarithromycin,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Clarithromycin,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Clarithromycin,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Clarithromycin,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Risperidone,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Risperidone,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Risperidone,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Risperidone,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Olanzapine,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Olanzapine,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Olanzapine,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Olanzapine,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Donepezil,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Donepezil,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Donepezil,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Donepezil,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Amlodipine,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Amlodipine,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Amlodipine,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Amlodipine,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Rosuvastatin,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Rosuvastatin,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Rosuvastatin,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Rosuvastatin,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Ezetimibe,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Ezetimibe,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Ezetimibe,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Ezetimibe,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Berberine,api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+Berberine,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Berberine,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Berberine,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Berberine,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Silibinin,api,pKa,medium,PubChem / DrugBank / potentiometric literature,yes (flag as estimated),medium
+Silibinin,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Silibinin,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Silibinin,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Silibinin,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Ritonavir,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Ritonavir,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Ritonavir,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Ritonavir,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium
+Metronidazole,api,delta_D,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Metronidazole,api,delta_P,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Metronidazole,api,delta_H,medium,Hansen Solubility Parameters handbook / HSPiP,yes (flag as estimated),medium
+Metronidazole,api,water_solubility_mg_ml,medium,PubChem / intrinsic solubility literature,yes (flag as estimated),medium

@@ -1,0 +1,54 @@
+material_name,property_name,value,unit,source_id,data_quality,confidence_score,notes
+Methotrexate,acid_base,acid,,S019_PKA_LIT,literature,0.6,Dicarboxylic antifolate (structural classification).
+Methotrexate,pKa,4.7,,S019_PKA_LIT,estimated,0.4,Domain-knowledge reference (~3.4/4.7/5.5); verify against primary literature before decision-making.
+Gemcitabine,acid_base,base,,S019_PKA_LIT,literature,0.55,Cytosine amine (structural classification).
+Gemcitabine,pKa,3.6,,S019_PKA_LIT,estimated,0.4,Domain-knowledge reference; verify against primary literature before decision-making.
+Tamoxifen,acid_base,base,,S019_PKA_LIT,literature,0.65,Tertiary amine (structural classification).
+Tamoxifen,pKa,8.85,,S019_PKA_LIT,literature,0.65,Web-verified 2026 vs NOLVADEX FDA label (pKa' 8.85).
+Imatinib,acid_base,base,,S019_PKA_LIT,literature,0.6,Piperazine/pyridine basic centres (structural).
+Imatinib,pKa,7.8,,S019_PKA_LIT,estimated,0.4,Domain-knowledge reference (~7.7-8.0; also 3.7); verify against primary literature before decision-making.
+Azithromycin,acid_base,base,,S019_PKA_LIT,literature,0.6,Dibasic macrolide (structural).
+Azithromycin,pKa,8.7,,S019_PKA_LIT,estimated,0.4,Domain-knowledge reference (~8.7/9.5); verify against primary literature before decision-making.
+Efavirenz,acid_base,acid,,S019_PKA_LIT,literature,0.55,Cyclic carbamate N-H weak acid (structural).
+Efavirenz,pKa,10.2,,S019_PKA_LIT,estimated,0.4,Domain-knowledge reference; verify against primary literature before decision-making.
+Ketoconazole,acid_base,base,,S019_PKA_LIT,literature,0.6,Imidazole diprotic base (structural).
+Ketoconazole,pKa,6.5,,S019_PKA_LIT,estimated,0.4,Domain-knowledge reference (~2.9/6.5); verify against primary literature before decision-making.
+Carbamazepine,acid_base,neutral,,S019_PKA_LIT,literature,0.6,No ionization in physiological range (structural; amide pKa ~13.9).
+Metformin,acid_base,base,,S019_PKA_LIT,literature,0.65,Strong diprotic base (structural).
+Metformin,pKa,11.5,,S019_PKA_LIT,literature,0.6,Web-verified 2026 (diprotic base pKa 2.8/11.5; also cited 12.4). Dominant basic pKa.
+Fluorouracil,acid_base,acid,,S019_PKA_LIT,literature,0.6,Uracil N-H weak acid (structural).
+Fluorouracil,pKa,8.0,,S019_PKA_LIT,estimated,0.4,Domain-knowledge reference (~8.0); verify against primary literature before decision-making.
+Cytarabine,acid_base,base,,S019_PKA_LIT,literature,0.55,Cytosine amine (structural).
+Cytarabine,pKa,4.3,,S019_PKA_LIT,estimated,0.4,Domain-knowledge reference; verify against primary literature before decision-making.
+Etoposide,acid_base,acid,,S019_PKA_LIT,literature,0.55,Phenolic OH weak acid (structural).
+Etoposide,pKa,9.8,,S019_PKA_LIT,estimated,0.4,Domain-knowledge reference (~9.8); verify against primary literature before decision-making.
+Erlotinib,acid_base,base,,S019_PKA_LIT,literature,0.55,Quinazoline basic N (structural).
+Erlotinib,pKa,5.4,,S019_PKA_LIT,estimated,0.4,Domain-knowledge reference (~5.4); verify against primary literature before decision-making.
+Temozolomide,acid_base,neutral,,S019_PKA_LIT,literature,0.5,Labile imidazotetrazine; no useful physiological ionization (structural).
+Miconazole,acid_base,base,,S019_PKA_LIT,literature,0.6,Imidazole base (structural).
+Miconazole,pKa,6.65,,S019_PKA_LIT,estimated,0.4,Domain-knowledge reference (~6.65); verify against primary literature before decision-making.
+Terbinafine,acid_base,base,,S019_PKA_LIT,literature,0.55,Tertiary amine (structural).
+Terbinafine,pKa,7.1,,S019_PKA_LIT,estimated,0.4,Domain-knowledge reference (~7.1); verify against primary literature before decision-making.
+Griseofulvin,acid_base,neutral,,S019_PKA_LIT,literature,0.55,No ionizable group in physiological range (structural).
+Levofloxacin,acid_base,amphoteric,,S019_PKA_LIT,literature,0.6,Zwitterionic fluoroquinolone (structural).
+Levofloxacin,pKa,6.0,,S019_PKA_LIT,estimated,0.4,Domain-knowledge reference (carboxyl ~6.0 / amine ~8.2); verify against primary literature before decision-making.
+Linezolid,acid_base,neutral,,S019_PKA_LIT,literature,0.5,Very weakly ionizable; effectively neutral at physiological pH (structural).
+Clarithromycin,acid_base,base,,S019_PKA_LIT,literature,0.6,Desosamine basic N (structural).
+Clarithromycin,pKa,8.99,,S019_PKA_LIT,estimated,0.4,Domain-knowledge reference (~8.99); verify against primary literature before decision-making.
+Risperidone,acid_base,base,,S019_PKA_LIT,literature,0.6,Piperidine/pyrimidine basic centres (structural).
+Risperidone,pKa,8.2,,S019_PKA_LIT,estimated,0.4,Domain-knowledge reference (~8.2/3.1); verify against primary literature before decision-making.
+Olanzapine,acid_base,base,,S019_PKA_LIT,literature,0.6,Piperazine basic centres (structural).
+Olanzapine,pKa,7.4,,S019_PKA_LIT,estimated,0.4,Domain-knowledge reference (~7.4/5.0); verify against primary literature before decision-making.
+Donepezil,acid_base,base,,S019_PKA_LIT,literature,0.65,Tertiary amine (structural).
+Donepezil,pKa,8.9,,S019_PKA_LIT,literature,0.6,Web-verified 2026 (tertiary amine pKa 8.9; also cited 9.08).
+Amlodipine,acid_base,base,,S019_PKA_LIT,literature,0.6,Primary amine side chain (structural).
+Amlodipine,pKa,8.6,,S019_PKA_LIT,estimated,0.4,Domain-knowledge reference (~8.6); verify against primary literature before decision-making.
+Rosuvastatin,acid_base,acid,,S019_PKA_LIT,literature,0.65,Carboxylic acid statin (structural).
+Rosuvastatin,pKa,4.5,,S019_PKA_LIT,literature,0.6,Web-verified 2026 (SiriusT3 carboxyl pKa 4.52).
+Ezetimibe,acid_base,acid,,S019_PKA_LIT,literature,0.6,Phenolic OH (structural).
+Ezetimibe,pKa,9.75,,S019_PKA_LIT,literature,0.6,Web-verified 2026 (potentiometric pKa 9.75).
+Silibinin,acid_base,acid,,S019_PKA_LIT,literature,0.5,Polyphenolic; multiple phenol pKa (~7-9). pKa omitted (ambiguous).
+Ritonavir,acid_base,base,,S019_PKA_LIT,literature,0.5,Very weakly basic thiazole; largely neutral at physiological pH (structural).
+Ritonavir,pKa,2.8,,S019_PKA_LIT,estimated,0.4,Domain-knowledge reference (~2.8); verify against primary literature before decision-making.
+Metronidazole,acid_base,base,,S019_PKA_LIT,literature,0.6,Weakly basic nitroimidazole (structural).
+Metronidazole,pKa,2.55,,S019_PKA_LIT,estimated,0.4,Domain-knowledge reference (~2.5); verify against primary literature before decision-making.

@@ -1,0 +1,2 @@
+formulation_id,carrier_type,route,process_method,aqueous_phase,pH,temperature_C,source_id,notes
+EXAMPLE-001,niosome,topical,thin-film hydration,PBS,7.4,60,literature,EXAMPLE ROW ONLY - not an experimental outcome

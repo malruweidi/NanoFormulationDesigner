@@ -1,0 +1,4 @@
+formulation_id,material_id,component_role,amount_value,amount_unit,mol_percent,mass_percent,concentration_mg_ml
+EXAMPLE-001,SUR003,surfactant,,,47.5,,
+EXAMPLE-001,STE001,sterol,,,47.5,,
+EXAMPLE-001,ION005,charge_inducer,,,5.0,,

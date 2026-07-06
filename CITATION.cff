@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "NanoFormulationDesigner"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: "Al-Ruweidi"
+    given-names: "Mahmoud K."
+version: 0.1.0
+date-released: 2026-07-01
+license: MIT
+repository-code: "https://github.com/malruweidi/NanoFormulationDesigner"
+abstract: >
+  NanoFormulationDesigner is a local, materials-aware nanocarrier formulation
+  design and decision-support workbench. It combines a curated material-property
+  database, deterministic scientific kernels, explainable heuristic scoring,
+  solvent and carrier recommenders, and optional grounded report assistance.
+  Outputs are descriptor-driven screening estimates that require laboratory
+  verification; the tool is not a validated predictor or medical device.
+keywords:
+  - pharmaceutics
+  - nanomedicine
+  - drug delivery
+  - formulation design
+  - preformulation
+  - decision support

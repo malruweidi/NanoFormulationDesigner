@@ -85,18 +85,13 @@ The app contains ten tabs: Dashboard, Guided Wizard, Formulation Builder, Solven
 ```bash
 python -m nanoform.cli search --query "Span 60"
 
-python -m nanoform.cli design --drug Dexamethasone --family niosome --route topical \
-  --goal stability --solvent Ethanol \
-  --components "Span 60:surfactant:47.5|Cholesterol:sterol:47.5|Dicetyl phosphate:charge_inducer:5"
+python -m nanoform.cli design --drug Dexamethasone --family niosome --route topical   --goal stability --solvent Ethanol   --components "Span 60:surfactant:47.5|Cholesterol:sterol:47.5|Dicetyl phosphate:charge_inducer:5"
 
 python -m nanoform.cli recommend-solvent --drug Curcumin --route oral --blends
 python -m nanoform.cli recommend-carrier --route pulmonary --family dry_powder_carrier
 python -m nanoform.cli wizard-candidates --drug Dexamethasone --route topical --family niosome
-python -m nanoform.cli cqa-table --drug Curcumin --family solid_lipid_nanoparticle \
-  --components "Glyceryl behenate:solid_lipid:80|Tween 80:surfactant:20"
-python -m nanoform.cli design-report --drug Doxorubicin --family liposome \
-  --components "HSPC:phospholipid:56|Cholesterol:sterol:39|DSPE-PEG2000:peg_lipid:5" \
-  --out report.md
+python -m nanoform.cli cqa-table --drug Curcumin --family solid_lipid_nanoparticle   --components "Glyceryl behenate:solid_lipid:80|Tween 80:surfactant:20"
+python -m nanoform.cli design-report --drug Doxorubicin --family liposome   --components "HSPC:phospholipid:56|Cholesterol:sterol:39|DSPE-PEG2000:peg_lipid:5"   --out report.md
 ```
 
 ## Example Python use

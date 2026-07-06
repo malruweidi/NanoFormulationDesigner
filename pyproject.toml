@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nanoformulationdesigner"
+version = "0.1.0"
+description = "Descriptor-driven nanocarrier formulation design and decision-support platform"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Mahmoud K. Al-Ruweidi" },
+]
+keywords = ["nanomedicine", "formulation", "niosomes", "liposomes", "pharmaceutics", "drug delivery"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Chemistry",
+]
+
+dependencies = [
+  "pandas>=2.0",
+  "numpy>=1.24",
+  "streamlit>=1.30",
+  "tabulate>=0.9",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6", "openpyxl>=3.1"]
+llm = ["anthropic>=0.40"]
+
+[project.scripts]
+nanoform = "nanoform.cli:main"
+
+
+[project.urls]
+Homepage = "https://github.com/malruweidi/NanoFormulationDesigner"
+Documentation = "https://github.com/malruweidi/NanoFormulationDesigner/tree/main/docs"
+Issues = "https://github.com/malruweidi/NanoFormulationDesigner/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+nanoform = ["py.typed", "data/relational/*.csv", "data/internal_constants/*.csv", "data/examples/*.csv"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"

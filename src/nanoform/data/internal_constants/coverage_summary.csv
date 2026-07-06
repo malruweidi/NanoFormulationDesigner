@@ -1,0 +1,38 @@
+material_type,category,number_of_materials,number_with_MW,number_with_HLB,number_with_chain_data,number_with_charge,number_with_HSP,number_with_molar_volume,number_with_transition_or_melting_temperature,key_missing_values,priority_for_curation
+api,Drug/API,35,35,0,0,35,35,35,35,pKa,high
+api,Payload placeholder,3,3,0,0,3,0,0,0,MW;logP;pKa;delta_D;delta_P;delta_H;water_solubility_mg_ml,high
+api,antibiotic,6,6,0,0,0,1,1,0,pKa;delta_D;delta_P;delta_H;water_solubility_mg_ml,high
+api,anticancer,10,10,0,0,0,0,0,0,pKa;delta_D;delta_P;delta_H;water_solubility_mg_ml,high
+api,antidiabetic,1,1,0,0,0,0,0,0,delta_D;delta_P;delta_H;water_solubility_mg_ml,high
+api,antifungal,5,5,0,0,0,1,1,0,pKa;delta_D;delta_P;delta_H;water_solubility_mg_ml,high
+api,antiviral,2,2,0,0,0,0,0,0,delta_D;delta_P;delta_H;water_solubility_mg_ml,high
+api,biologic,1,1,0,0,0,1,0,0,logP;pKa;water_solubility_mg_ml,high
+api,cardiovascular,3,3,0,0,0,0,0,0,delta_D;delta_P;delta_H;water_solubility_mg_ml,high
+api,cns,4,4,0,0,0,0,0,0,pKa;delta_D;delta_P;delta_H;water_solubility_mg_ml,high
+api,corticosteroid,2,2,0,0,0,2,2,1,pKa,high
+api,local anesthetic,1,1,0,0,0,1,1,0,,low
+api,nsaid,1,1,0,0,0,1,1,1,,low
+api,nutraceutical,2,2,0,0,0,0,0,0,pKa;delta_D;delta_P;delta_H;water_solubility_mg_ml,high
+bile_salt,Bile salt/bilosome edge material,8,8,0,0,8,8,8,0,HLB,high
+bile_salt,bile salt,1,1,1,1,1,0,1,0,,low
+carrier,Dry carrier/cryoprotectant,20,19,0,0,0,0,0,12,Tg_C,high
+carrier,disaccharide,1,1,0,0,1,0,0,0,Tg_C,high
+carrier,polysaccharide,1,0,0,0,1,0,0,0,Tg_C,high
+ionic_surfactant,Charge inducer/ionic modifier,4,4,0,4,4,4,4,0,HLB,high
+liquid_lipid,Solid lipid/oil/wax,18,18,7,0,0,18,18,18,MW,high
+liquid_lipid,fatty acid,1,1,0,1,1,1,1,1,,low
+liquid_lipid,oil,2,2,0,0,2,2,2,0,,low
+nonionic_surfactant,Ionic surfactant,2,2,2,2,2,2,2,0,,low
+nonionic_surfactant,Nonionic surfactant,53,52,53,53,53,53,52,7,MW;CMC_mM,high
+nonionic_surfactant,brij,1,1,1,1,1,0,1,0,CMC_mM,high
+nonionic_surfactant,polymeric solubilizer,1,1,1,1,1,0,1,0,CMC_mM,high
+phospholipid,Phospholipid/membrane lipid,44,43,0,44,44,44,43,26,MW;Tm_C,high
+polymer,Polymer,38,38,0,0,27,38,16,16,Tg_C;formal_charge,high
+polymer,cationic polymer,1,1,0,0,1,1,0,0,Tg_C,high
+polymer,polysaccharide (cationic),1,1,0,0,1,1,0,0,,low
+solid_lipid,Solid lipid/oil/wax,17,17,6,0,0,17,17,17,MW,high
+solid_lipid,wax,2,2,0,2,2,2,2,2,,low
+solvent,Solvent/co-solvent,18,18,0,0,0,18,18,18,,low
+solvent,solvent,5,5,0,0,0,5,5,0,,low
+sterol,Sterol/sterol derivative,5,5,0,0,5,5,5,5,,low
+sterol,phytosterol,1,1,0,0,1,0,1,1,,low

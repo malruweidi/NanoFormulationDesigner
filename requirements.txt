@@ -1,0 +1,12 @@
+# Core runtime dependencies (deterministic kernels + database + CLI + app)
+pandas>=2.0
+numpy>=1.24
+streamlit>=1.30
+tabulate>=0.9
+
+# Optional LLM orchestration layer (NOT required for core functionality)
+# anthropic>=0.40
+
+# Development / testing
+pytest>=8
+ruff>=0.6

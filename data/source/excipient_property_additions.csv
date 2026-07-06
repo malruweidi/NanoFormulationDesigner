@@ -1,0 +1,16 @@
+material_name,property_name,value,unit,source_id,data_quality,confidence_score,notes
+Tween 20,CMC_mM,0.06,mM,S018_SURFACTANT_LIT,variable,0.45,Representative aqueous CMC ~25C; varies with temperature/method
+Tween 40,CMC_mM,0.027,mM,S018_SURFACTANT_LIT,variable,0.45,Representative aqueous CMC ~25C; varies with temperature/method
+Tween 60,CMC_mM,0.021,mM,S018_SURFACTANT_LIT,variable,0.45,Representative aqueous CMC ~25C; varies with temperature/method
+Tween 80,CMC_mM,0.012,mM,S018_SURFACTANT_LIT,variable,0.45,Representative aqueous CMC ~25C; varies with temperature/method
+Tween 85,CMC_mM,0.02,mM,S018_SURFACTANT_LIT,variable,0.4,Representative aqueous CMC; trioleate polysorbate; variable
+Brij 35,CMC_mM,0.09,mM,S018_SURFACTANT_LIT,variable,0.45,Representative aqueous CMC ~25C (C12E23); variable
+Brij 58,CMC_mM,0.0077,mM,S018_SURFACTANT_LIT,variable,0.45,Representative aqueous CMC ~25C (C16E20); variable
+Brij 98,CMC_mM,0.025,mM,S018_SURFACTANT_LIT,variable,0.45,Representative aqueous CMC ~25C (C18:1E20); variable
+Poloxamer 188,CMC_mM,0.48,mM,S018_SURFACTANT_LIT,variable,0.35,Strongly temperature-dependent; representative value only
+Poloxamer 407,CMC_mM,0.28,mM,S018_SURFACTANT_LIT,variable,0.35,Strongly temperature-dependent; representative value only
+Vitamin E TPGS,CMC_mM,0.13,mM,S018_SURFACTANT_LIT,variable,0.4,Representative aqueous CMC (~0.02 wt%); variable
+Sodium cholate,CMC_mM,11,mM,S018_SURFACTANT_LIT,variable,0.4,Bile salt CMC range ~9-15 mM; ionic-strength dependent
+Sodium deoxycholate,CMC_mM,4,mM,S018_SURFACTANT_LIT,variable,0.4,Bile salt CMC range ~2-6 mM; ionic-strength dependent
+Sodium taurocholate,CMC_mM,6,mM,S018_SURFACTANT_LIT,variable,0.4,Bile salt CMC range ~3-11 mM; ionic-strength dependent
+Sodium glycocholate,CMC_mM,8,mM,S018_SURFACTANT_LIT,variable,0.4,Bile salt CMC range ~6-12 mM; ionic-strength dependent
