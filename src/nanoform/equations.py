@@ -119,6 +119,20 @@ def hildebrand_delta(dD: float, dP: float, dH: float) -> float:
     return math.sqrt(dD ** 2 + dP ** 2 + dH ** 2)
 
 
+def red_affinity_score(red: float | None) -> float:
+    """Map Hansen RED to a qualitative affinity score in [0, 1].
+
+    RED is not linear in practical suitability. RED < 1 means the solvent or
+    phase lies inside the estimated solubility sphere, so a value just below 1
+    should remain moderately favorable rather than collapsing to near-zero.
+    """
+    if red is None:
+        return 0.4
+    if red <= 1.0:
+        return clamp(0.55 + 0.45 * (1.0 - red))
+    return clamp(0.55 - 0.30 * (red - 1.0), 0.05, 0.55)
+
+
 # --------------------------------------------------------------------------- #
 # Flory-Huggins interaction parameter
 # --------------------------------------------------------------------------- #
